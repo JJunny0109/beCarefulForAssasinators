@@ -1,9 +1,5 @@
-.hidden{
-  display : none;
-
-}
-
-header {
-  background-color: #01579B;
- 
+.textBox {
+    width : 300px;
+    height: 200px;
+    resize: none;
 }

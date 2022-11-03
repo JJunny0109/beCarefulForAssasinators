@@ -1,29 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-    <title>Caesar Cipher</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Caesar Cipher</title>
 </head>
 <body>
-    <header>
-        <a href="http://www.google.com">NAVER</a>
-    </header>
-    <content>
-        <h1>Caesar Cipher</h1>
-        <div>
-            <form id="plainTextForm">
-                <input type="text" id="plainText">
-                <input type="submit">
-            </form>
-        </div>
-        <div>
-            <textarea></textarea>
-        </div>
-    </content>
-    
+  <div class="container">
+    <div class="main">
+      <h1>Caesar Cipher</h1>
+      <p id="appDescritipn">description in here</p>
+      <textarea placeholder="Input some text." id="plainTextArea" class="textBox"></textarea><br>
+      <textarea placeholder="The Results" id="resultTextArea" class="textBox" readonly></textarea>
+    </div>
+  </div>
+  <script src="index.js"></script>
 </body>
 </html>
