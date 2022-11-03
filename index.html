@@ -9,10 +9,13 @@
 </head>
 <body>
   <div class="container">
-    <div class="main">
+    <div class="title">
       <h1>Caesar Cipher</h1>
       <p id="appDescritipn">description in here</p>
-      <textarea placeholder="Input some text." id="plainTextArea" class="textBox"></textarea><br>
+      <input type="number" id="keyNumber" min="0" max="26"> <-- 암호키 입력
+    </div>
+    <div class="main">
+      <textarea placeholder="Input some text" id="plainTextArea" class="textBox"></textarea>
       <textarea placeholder="The Results" id="resultTextArea" class="textBox" readonly></textarea>
     </div>
   </div>
